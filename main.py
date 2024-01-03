@@ -10,7 +10,8 @@ from dash import Dash, html, dcc, callback, Output, Input
 import calendar
 
 channel_name = input('Please write your favorite Youtube channel')
-api_key = '' #write your api key
+api_key = '' #write your api key. You can get it from here https://developers.google.com/youtube/v3/getting-started?hl=es-419
+            #follow this tutorial to get your api key https://www.youtube.com/watch?v=D56_Cx36oGY&list=LL&index=2&t=201s 
 
 api_service_name = "youtube"
 api_version = "v3"
