@@ -10,7 +10,7 @@ from dash import Dash, html, dcc, callback, Output, Input
 import calendar
 
 channel_name = input('Please write your favorite Youtube channel')
-api_key = 'AIzaSyAc8DyYHDJRzUWKyAYrVrGZhM3TbgqFHJk'
+api_key = '' #write your api key
 
 api_service_name = "youtube"
 api_version = "v3"
